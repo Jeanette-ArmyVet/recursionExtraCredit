@@ -1,4 +1,5 @@
 def power(x, n):
+    
     """
     Computes the value of x raised to the power of n, using recursion.
     Assumes that n is an even and non-negative integer.
@@ -8,3 +9,4 @@ def power(x, n):
         return 1
     else:
         return x * power(x, n - 1)
+    
